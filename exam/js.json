@@ -1,0 +1,2 @@
+fetch(https://api.slingacademy.com/v1/sample-data/products?&limit=20)
+.then (response => response.json)
