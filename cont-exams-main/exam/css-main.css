@@ -1,0 +1,32 @@
+body
+{
+display: flex;
+height: 100vh;
+background-color: aquamarine;
+flex-direction: column;
+box-sizing: border-box;
+}
+* {
+    font-family: "Sansation", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.product-menu {
+    border: 100px solid #ccc;
+    padding: 10px;
+    width: 400px;
+    text-align: left;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    border-radius: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+.product-menu img {
+    width: 200px;
+    height: auto;
+  }
