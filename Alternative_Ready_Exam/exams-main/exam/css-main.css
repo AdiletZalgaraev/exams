@@ -1,0 +1,134 @@
+body
+{
+/* display: flex;
+flex-direction: column; */
+/* justify-content: center; */
+/* align-items: center; */
+background: linear-gradient(135deg, #ccecf6 0%, #e0f7fa 100%);
+box-sizing: border-box;
+height: auto;
+margin: 20px 10px 10px 10px;
+padding: 0;
+min-height: 100vh;
+margin-right: 16px;
+}
+* {
+font-family: "Sansation", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+h2, h3 {
+color: #319795;
+margin: 0 0 8px 0;
+}
+
+a {
+color: #4fd1c5;
+text-decoration: none;
+margin-right: 16px;
+font-size: 1rem;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+.middle-element {
+width: 340px;
+font-size: 1.1rem;
+padding: 12px 20px;
+border-radius: 12px;
+border: 1px solid #b2dfdb;
+box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.product-menu {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 40px;
+justify-content: center;
+padding: 24px 0;
+}
+
+.product-menu img {
+    width: 200px;
+    height: auto;
+  }
+
+.product-div {
+    background: #fff;
+    border: 2px solid #b2dfdb;
+    border-radius: 18px;
+    box-shadow: 0 6px 24px rgba(0,0,0,0.10);
+    padding: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 32px;
+    min-height: 180px;
+}
+
+.product-div img {
+    width: 130px;
+    height: 130px;
+    object-fit: contain;
+    border-radius: 14px;
+    background: #e0f7fa;
+    border: 1px solid #b2dfdb;
+}
+
+.product-div > div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.product-div h5 {
+    font-size: 1.35rem;
+    margin: 0 0 16px 0;
+    color: #319795;
+}
+
+.product-div h4 {
+    font-size: 1.15rem;
+    margin: 0 0 24px 0;
+    color: #00796b;
+}
+
+.add-to-cart, .remove-btn {
+    align-self: flex-end;
+    background: #4fd1c5;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 32px;
+    cursor: pointer;
+    font-size: 1.15rem;
+    font-weight: bold;
+    transition: background 0.2s;
+    margin-top: auto;
+    margin-left: auto;
+}
+
+.add-to-cart:hover, .remove-btn:hover {
+    background: #319795;
+}
+
+#cart-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    justify-content: center;
+    padding: 16px 0;
+}
+
+#cart-total {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #319795;
+    text-align: center;
+}
